@@ -47,6 +47,7 @@ const Bio = () => {
           href={social.github}
           style={{ textDecoration: "none" }}
           target="_blank"
+          rel="noreferrer"
         >
           {author.name}
         </a>.{" "}
