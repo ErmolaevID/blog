@@ -1,7 +1,7 @@
 ---
 title: Hoisting ⬆️
-date: "2021-08-07T04:05:11.173Z"
-description: Description
+date: "2021-08-08T04:14:20.949Z"
+description: Introductory article about hoisting in js
 ---
 ## Small Example
 ```javascript
