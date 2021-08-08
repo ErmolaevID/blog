@@ -66,6 +66,7 @@ testWithDeclaration() // Hoisted
 
 </p>
 </details>
+<br/>
 
 **But**
 ```javascript
@@ -92,6 +93,7 @@ var testWithExpression = function() {
 
 </p>
 </details>
+<br/>
 
 ```javascript
 testWithArrowFunc(); // TypeError
