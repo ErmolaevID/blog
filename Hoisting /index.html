@@ -48,6 +48,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <span class="token function">testWithDeclaration</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// Hoisted</span></code></pre></div>
 </p>
 </details>
+<br/>
 <p><strong>But</strong></p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token function">testWithExpression</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// TypeError</span>
 
@@ -66,6 +67,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
 </p>
 </details>
+<br/>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token function">testWithArrowFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// TypeError</span>
 
 <span class="token keyword">var</span> <span class="token function-variable function">testWithArrowFunc</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"Hoisted"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
