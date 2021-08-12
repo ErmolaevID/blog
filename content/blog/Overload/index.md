@@ -12,7 +12,7 @@ But I'll show you an examples of using the similarity of overloads
 4. [Overloading in functions, TS](#tsf)
 5. [Arguments object (Don't use it)](#obj)
 
-## Rest Parameters in functions <a name="rpf" />
+## Rest Parameters in functions <a name="rpf"></a>
 ```javascript
 const sum = (...args) => {
   let counter = 0;
@@ -39,7 +39,7 @@ example(1, 4, 5) // 6
 example(1, 4) // NaN
 ```
 
-## Rest Parameters in constructors <a name="rpc" />
+## Rest Parameters in constructors <a name="rpc"></a>
 ```javascript
 class Point {
   constructor(...args) {
@@ -59,7 +59,7 @@ p.printСoordinates(); // 1 2
 p1.printСoordinates(); // 1 2
 ```
 
-## Overloading in constructors, TS <a name="tsc" />
+## Overloading in constructors, TS <a name="tsc"></a>
 TS gives us a new syntax for overloads
 ```typescript
 class Point {
@@ -86,7 +86,7 @@ p.printСoordinates(); // 1 0
 and suitable tips <br/>
 ![ezgif-3-69195a6f51ce](https://user-images.githubusercontent.com/57585370/128887149-8327ac4a-712e-4f9b-849d-580863c99243.gif)
 
-## Overloading in functions, TS <a name="tsf" />
+## Overloading in functions, TS <a name="tsf"></a>
 ```typescript
 class MyClass {
   method(): void;
@@ -99,7 +99,7 @@ class MyClass {
 }
 ```
 
-## Arguments object <a name="obj" />
+## Arguments object <a name="obj"></a>
 ### **Use rest parameters instead of arguments object!!!** <br/>
 `arguments` - an object that is similar to an array. It has indexes `arguments[0]`
 and `.length`. Also `arguments` doesn't work with arrow functions
