@@ -4,7 +4,7 @@ date: "2021-08-12T10:00:05.620Z"
 description: Does it exist?
 ---
 There are no overloads in JS in the form in which they exist in Java or C#.
-But I'll show you an examples of using "overloads"
+But I'll show you an examples of using the similarity of overloads
 
 1. [Rest Parameters in functions](#rpf)
 2. [Rest Parameters in constructors](#rpc)
