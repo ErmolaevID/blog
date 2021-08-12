@@ -10,7 +10,7 @@ But I’ll show you an examples of using the similarity of overloads</p>
 <li><a href="#tsf">Overloading in functions, TS</a></li>
 <li><a href="#obj">Arguments object (Don’t use it)</a></li>
 </ol>
-<h2>Rest Parameters in functions <a name="rpf" /></h2>
+<h2>Rest Parameters in functions <a name="rpf"></a></h2>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">sum</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token operator">...</span>args</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
   <span class="token keyword">let</span> counter <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
   <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> args<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -32,7 +32,7 @@ But I’ll show you an examples of using the similarity of overloads</p>
 
 <span class="token function">example</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token comment">// 6</span>
 <span class="token function">example</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span></code></pre></div>
-<h2>Rest Parameters in constructors <a name="rpc" /></h2>
+<h2>Rest Parameters in constructors <a name="rpc"></a></h2>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
   <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter"><span class="token operator">...</span>args</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">=</span> args<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">??</span> <span class="token number">0</span><span class="token punctuation">;</span>
@@ -49,7 +49,7 @@ But I’ll show you an examples of using the similarity of overloads</p>
 
 p<span class="token punctuation">.</span><span class="token function">printСoordinates</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1 2</span>
 p1<span class="token punctuation">.</span><span class="token function">printСoordinates</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1 2</span></code></pre></div>
-<h2>Overloading in constructors, TS <a name="tsc" /></h2>
+<h2>Overloading in constructors, TS <a name="tsc"></a></h2>
 <p>TS gives us a new syntax for overloads</p>
 <div class="gatsby-highlight" data-language="typescript"><pre class="language-typescript"><code class="language-typescript"><span class="token keyword">class</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
   #x<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
@@ -73,7 +73,7 @@ p1<span class="token punctuation">.</span><span class="token function">printСoo
 p<span class="token punctuation">.</span><span class="token function">printСoordinates</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1 0</span></code></pre></div>
 <p>and suitable tips <br/>
 <img src="https://user-images.githubusercontent.com/57585370/128887149-8327ac4a-712e-4f9b-849d-580863c99243.gif" alt="ezgif-3-69195a6f51ce"></p>
-<h2>Overloading in functions, TS <a name="tsf" /></h2>
+<h2>Overloading in functions, TS <a name="tsf"></a></h2>
 <div class="gatsby-highlight" data-language="typescript"><pre class="language-typescript"><code class="language-typescript"><span class="token keyword">class</span> <span class="token class-name">MyClass</span> <span class="token punctuation">{</span>
   <span class="token function">method</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span><span class="token punctuation">;</span>
   <span class="token function">method</span><span class="token punctuation">(</span>a<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span><span class="token punctuation">;</span>
@@ -83,7 +83,7 @@ p<span class="token punctuation">.</span><span class="token function">printСoor
     <span class="token comment">// logic</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
-<h2>Arguments object <a name="obj" /></h2>
+<h2>Arguments object <a name="obj"></a></h2>
 <h3><strong>Use rest parameters instead of arguments object!!!</strong> <br/></h3>
 <p><code class="language-text">arguments</code> - an object that is similar to an array. It has indexes <code class="language-text">arguments[0]</code>
 and <code class="language-text">.length</code>. Also <code class="language-text">arguments</code> doesn’t work with arrow functions</p>
