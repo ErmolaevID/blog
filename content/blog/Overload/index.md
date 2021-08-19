@@ -84,7 +84,7 @@ const p1 = new Point(1, 2, 3); // Expected 0-2 arguments, but got 3
 p.printСoordinates(); // 1 0
 ```
 and suitable tips <br/>
-![ezgif-3-69195a6f51ce](https://user-images.githubusercontent.com/57585370/128887149-8327ac4a-712e-4f9b-849d-580863c99243.gif)
+<img width="100%" src="https://user-images.githubusercontent.com/57585370/128887149-8327ac4a-712e-4f9b-849d-580863c99243.gif" />
 
 ## Overloading in functions, TS <a name="tsf"></a>
 ```typescript
