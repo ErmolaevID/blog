@@ -116,12 +116,12 @@ module.exports = {
         short_name: `EID Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#005b99`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // TODO: Logo!
       },
     },
-    gatsby-plugin-react-helmet,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
