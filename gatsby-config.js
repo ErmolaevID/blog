@@ -121,7 +121,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // TODO: Logo!
       },
     },
-    `gatsby-plugin-react-helmet`,
+    gatsby-plugin-react-helmet,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
