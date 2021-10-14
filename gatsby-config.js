@@ -116,7 +116,7 @@ module.exports = {
         short_name: `EID Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#005b99`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // TODO: Logo!
       },
