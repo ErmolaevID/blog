@@ -2,6 +2,7 @@
 title: Overloading in JS/TS 
 date: "2021-08-12T10:00:05.620Z"
 description: Does it exist?
+stage: ready
 ---
 There are no overloads in JS in the form in which they exist in Java or C#.
 But I'll show you an examples of using the similarity of overloads
