@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[EID Blog]]></title><description><![CDATA[EID Blog]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Oct 2021 17:17:03 GMT</lastBuildDate><item><title><![CDATA[Prototypes]]></title><description><![CDATA[Useful links: You Don’t Know JS Eng You Don’t Know JS Rus MDN W3 Learn JS Rus Table of contents Beginning getPrototypeOf / setPrototypeOf…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Prototypes/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Prototypes/</guid><pubDate>Wed, 13 Oct 2021 09:54:07 GMT</pubDate><content:encoded>&lt;h2&gt;Useful links:&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[EID Blog]]></title><description><![CDATA[EID Blog]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 03 Nov 2021 15:22:28 GMT</lastBuildDate><item><title><![CDATA[Наш технологический стек на фронте]]></title><description><![CDATA[React + TS Мы используем React, так как у наших программистов больше всего опыта именно в нём.
+TypeScript нужен нам для упрощения процесса…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/MIND-FrontStack/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/MIND-FrontStack/</guid><content:encoded>&lt;h2&gt;React + TS&lt;/h2&gt;
+&lt;p&gt;Мы используем React, так как у наших программистов больше всего опыта именно в нём.
+TypeScript нужен нам для упрощения процесса разработки и масштабирования проекта.&lt;/p&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/57585370/139906993-9004e726-97df-4a1c-8f5c-5aceceb3fc75.png&quot; width=&quot;100%&quot;&gt;
+&lt;p&gt;Если у вас еще нет опыта работы с UI библиотекой/фреймворком, то советуем вам начать с React.
+Вы быстро освоите его и сможете создавать MVP ваших SPA. У React очень хорошая &lt;a href=&quot;https://reactjs.org/tutorial/tutorial.html#what-is-react&quot;&gt;документация&lt;/a&gt; и удобная &lt;a href=&quot;https://create-react-app.dev/docs/getting-started&quot;&gt;утилита&lt;/a&gt; для старта проекта.
+Если же вам нужен SSR, то можете использовать &lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.js&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Redux&lt;/h2&gt;
+&lt;p&gt;По началу нам не требовался state-менеджер, но с ростом приложения мы поняли,
+что он облегчит нам жизнь. State-менеджер управляет всем: от темы и языка до
+личных данных пользователя. Главный конкурент redux - mobX, но у нашей команды больше опыта
+в работе с redux, поэтому на нём и остановились. На этом &lt;a href=&quot;https://redux.js.org/introduction/getting-started&quot;&gt;сайте&lt;/a&gt; вы можете познакомиться с redux.&lt;/p&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/57585370/139907197-aeb3dd57-9080-4afe-abcc-a6383f62a774.png&quot; width=&quot;100%&quot;&gt;
+&lt;h2&gt;Styled-components&lt;/h2&gt;
+&lt;p&gt;Styled-components позволяет вам писать css прямо внутри js.
+Прекрасное решение для изоляции css и коммуникации между логики на js и стилей.
+Почитайте &lt;a href=&quot;https://styled-components.com/docs&quot;&gt;документацию&lt;/a&gt; styled-components. В качестве альтернативы можно использовать,
+встроенные в react, &lt;a href=&quot;https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/&quot;&gt;css-modules&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/57585370/139907298-9af61373-c1d0-4fdf-b13d-9e8876f95f9f.png&quot; width=&quot;20%&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Storybook&lt;/h2&gt;
+&lt;p&gt;С помощью storybook вы можете создавать и тестировать ваши компоненты в отрыве от самого приложения.
+Очень удобно не запускать все приложения целиком, а только нужные вам компоненты.
+Если вы планируете создать сложный SPA, то &lt;a href=&quot;https://storybook.js.org/&quot;&gt;storybook&lt;/a&gt; вам необходим.&lt;/p&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/57585370/139907372-3a444e4e-e2e8-4240-8dcd-b50ff3ce2afe.png&quot; width=&quot;100%&quot;&gt;
+&lt;h2&gt;Eslint + Prettier&lt;/h2&gt;
+&lt;p&gt;Для поддержки единого стиля кода мы используем ESLint и prettier. Можете ознакомиться с нашим конфигом &lt;a href=&quot;https://github.com/Mind-team/smart-parking-system-client-web/blob/master/.eslintrc&quot;&gt;ESLint&lt;/a&gt;.&lt;/p&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/57585370/139907459-22af2ea6-8b94-48af-a9ff-1cae347ca5d3.png&quot; width=&quot;100%&quot;&gt;
+&lt;h2&gt;CI&lt;/h2&gt;
+&lt;p&gt;В качестве CI мы используем Github Actions. Каждый коммит в главную ветку проверяется на соблюдение код стайла,
+успешную сборку приложения и storybook.&lt;/p&gt;
+&lt;h2&gt;React-comet, comet-cli&lt;/h2&gt;
+&lt;p&gt;Для быстрого старта приложения вы можете использовать &lt;a href=&quot;https://github.com/Ermolaev-Inc/react-comet&quot;&gt;react-comet&lt;/a&gt;,
+а для удобной последующей работы с ним &lt;a href=&quot;https://github.com/Ermolaev-Inc/comet-cli&quot;&gt;comet-cli&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Prototypes]]></title><description><![CDATA[Useful links: You Don’t Know JS Eng You Don’t Know JS Rus MDN W3 Learn JS Rus Table of contents Beginning getPrototypeOf / setPrototypeOf…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Prototypes/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Prototypes/</guid><pubDate>Wed, 13 Oct 2021 09:54:07 GMT</pubDate><content:encoded>&lt;h2&gt;Useful links:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/You-Dont-Know-JS-Prototypes/dp/1491904151&quot;&gt;You Don’t Know JS Eng&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.ozon.ru/products/211426247/?sh=5gcVqwqG&amp;#x26;suggestion_type=searchSuggestions&amp;#x26;from=share_ios&quot;&gt;You Don’t Know JS Rus&lt;/a&gt;&lt;/li&gt;
