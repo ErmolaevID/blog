@@ -2,7 +2,7 @@
 title: Prototypes
 date: "2021-10-13T09:54:07.473Z"
 description: Prototypes
-stage: dev
+stage: ready
 ---
 ## Useful links:
 - [You Don’t Know JS Eng](https://www.amazon.com/You-Dont-Know-JS-Prototypes/dp/1491904151)
